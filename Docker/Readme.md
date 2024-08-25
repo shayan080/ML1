@@ -1,6 +1,12 @@
-To Access the docker image for file_processor.py file write command
+# Access Docker Images
+
+To access the Docker image for `file_processor.py`, run the following command:
+
+```bash
 docker pull nast9/file-processor-image:latest
 
+To access the Docker image for `file_processor.py`, run the following command:
 
-To Access the docker image of flask code write command
+```bash
 docker pull nast9/multi-service-app:latest
+
