@@ -1,0 +1,12 @@
+train: /content/tshirt_detection/tshirt label.v1i.yolov8/train
+val: /content/tshirt_detection/tshirt label.v1i.yolov8/train
+
+nc: 4
+names: ['black', 'blue', 'grey', 'white']
+
+roboflow:
+  workspace: samiha-o2pzc
+  project: tshirt-label
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/samiha-o2pzc/tshirt-label/dataset/1
